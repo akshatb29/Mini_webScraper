@@ -8,14 +8,12 @@ It does not rely on IDs, classes, or element positions.
 Field types are detected dynamically, and the script interacts with them accordingly (text input, checkbox, radio, dropdown, date, etc.). Unsupported types are skipped safely.
 
 ---
-
-```### Run
+### Run 
+```
+pip install requirements.txt
 python main.py
 ```
-
-
-### Requirements
-
+---
 ### What It Does
 - Scans the page for `<input>`, `<select>`, `<textarea>`
 - Filters only visible/usable fields
@@ -23,5 +21,6 @@ python main.py
 - Detects each field's type
 - Fills or clicks based on behavior
 - Completes without relying on hardcoded selectors
+
 
 
