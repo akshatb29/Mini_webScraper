@@ -9,7 +9,11 @@ Field types are detected dynamically, and the script interacts with them accordi
 
 ---
 
-### Run
+```### Run
+code
+python main.py
+```
+
 
 ### Requirements
 
@@ -20,3 +24,4 @@ Field types are detected dynamically, and the script interacts with them accordi
 - Detects each field's type
 - Fills or clicks based on behavior
 - Completes without relying on hardcoded selectors
+
