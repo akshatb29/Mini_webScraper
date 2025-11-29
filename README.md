@@ -10,7 +10,6 @@ Field types are detected dynamically, and the script interacts with them accordi
 ---
 
 ```### Run
-code
 python main.py
 ```
 
@@ -24,4 +23,5 @@ python main.py
 - Detects each field's type
 - Fills or clicks based on behavior
 - Completes without relying on hardcoded selectors
+
 
