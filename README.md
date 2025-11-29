@@ -1,7 +1,6 @@
 ### Dynamic Random Field Tester (Selenium)
 
-This script automatically detects all form fields on  
-https://app.cloudqa.io/home/AutomationPracticeForm  
+This script automatically detects all form fields 
 and randomly selects **3 fields** to test on each run.
 
 It does not rely on IDs, classes, or element positions.  
@@ -21,6 +20,7 @@ python main.py
 - Detects each field's type
 - Fills or clicks based on behavior
 - Completes without relying on hardcoded selectors
+
 
 
 
